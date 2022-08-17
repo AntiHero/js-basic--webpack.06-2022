@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  color: white;
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(198, 255, 160);
+}
+
+h1 {
+  font-size: 78px;
+  text-shadow: 2px 2px 3px rgb(163, 163, 163);
+}
+
+.cat {
+  width: 450px;
+  height: 450px;
+  cursor: pointer;
+  margin: 100px auto;
+  border-radius: 100%;
+  background: url('../assets/cat.jpg') no-repeat center / cover;
+  transition: all 1.5s;
+}
+
+.cat:hover {
+  transform: rotate(360deg);
+}
