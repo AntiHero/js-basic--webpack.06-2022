@@ -1,0 +1,2 @@
+*,:after,:before{margin:0;padding:0}html{height:100vh}body{background-color:#c6ffa0;color:#fff;padding:30px;text-align:center}h1{font-size:78px;text-shadow:2px 2px 3px #a3a3a3}.cat{background:url(images/cat.jpg) no-repeat 50%/cover;border-radius:100%;cursor:pointer;height:450px;margin:100px auto;transition:all 1.5s;width:450px}.cat:hover{transform:rotate(1turn)}
+/*# sourceMappingURL=main.css.map*/
